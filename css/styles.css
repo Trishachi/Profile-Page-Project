@@ -1,12 +1,11 @@
 ﻿/**************************
 Styles for Profile Page Project
-Author - Chisombili Patricia Okoye (Trisha)
-Version 1.0 - Date - 05/06/2017
+Author - Chisom Trisha Okoye
+Version 2.0 - Date - 05/01/2019
 ***************************/
 
 /*  Global Styles   */
-
-* { 
+{
   box-sizing: border-box;
 }
 
@@ -14,6 +13,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'lato', sans-serif;
+  font-size: 16px;
   color: #222;
   text-align: center;
 }
@@ -21,7 +21,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Artifika', sans-serif;
 	font-weight: 600;
-    -webkit-font-smoothing: antialiased;	
+    -webkit-font-smoothing: antialiased;
 }
 
 ul, li {
@@ -30,7 +30,6 @@ ul, li {
 }
 
 /* Link Styles */
-
 a {
 	text-decoration: none;
 	color: #404040;
@@ -44,58 +43,61 @@ li {
 	list-style: none;
 }
 
-
 /* Top Menu/Navigation Styles */
-.main-nav {
-	width: 100%;
-	background: #fff;
-	min-height: 30px;
-	padding: 10px;
-	position: fixed;
-	text-align: center;
-	letter-spacing: 0.05em;
-	
+.navbar {
+  min-height: 30px;
+  padding: 10px;
+  letter-spacing: 0.05em;
+  box-shadow: 0 0 30px #222;
 }
 
-.nav {
-	list-style: none;
-	display: flex;
-	justify-content: space-around;
-	font-weight: 400;
-	margin: 5px auto;	
-	padding: 5px 0;
+.navbar-default {
+    background-color: #fff;
+    border-color: #e7e7e7;
+    font-weight: 400;
 }
 
-.nav .name {
-	display: none;
-	font-family: 'Artifika', sans-serif;
-	font-weight: 600;
-	font-size: 1.2em;
+.navbar-brand {
+  	font-family: 'Artifika', sans-serif;
+  	font-weight: 600;
+  	font-size: 1.2em;
 }
 
-.nav li {
-  padding: 5px 10px 10px 10px;
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav>li>a {
+    color: #222;
 }
 
-.nav a {
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover {
+  color: #e96656;
+  background-color: #fff;
+  }
+
+.navbar-default a {
   transition: all .5s;
-  color: #404040;
 }
 
-.nav a:hover {
+.navbar-default .navbar-nav>li>a:hover {
 	color: #e96656;
 }
 
-.nav .active {
-	color: #e96656;
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background-color: #e96656;
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #222;
+}
+
+/*  *********************************************************************************/
 
 /* Header Styles */
 
 header {
 	text-align: center;
-	background: url('../images/workspaceBb.jpg') no-repeat top center; 
+	background: url('../images/workspaceBb.jpg') no-repeat top center;
 	background-size: cover;
 	overflow: hidden;
 	padding-top: 60px;
@@ -210,7 +212,7 @@ ul.skills {
 .contact a.social {
     margin: 20px 15px 0 15px;
 }
-   
+
 /* Footer Styles */
 
 footer {
@@ -262,11 +264,11 @@ a.social:hover {
 }
 .clearfix {
   clear: both;
-}
+} */
 
 
 /* Styles for larger screens */
-@media screen and (min-width: 720px) {
+/* @media screen and (min-width: 720px) {
 
 	.flex {
       display: flex;
@@ -278,64 +280,63 @@ a.social:hover {
   header {
     min-height: 760px;
   }
-  
+
   header .profile-image {
 	margin-top: 125px;
 	}
-	
+
 	.nav {
     	max-width: 1200px;
   }
 
   .nav .name {
     display: block;
-    margin-right: auto;    
+    margin-right: auto;
   }
-  
+
   main {
 	padding-top: 50px;
 	}
-	
+
  main p {
     line-height: 1.6em;
   }
-  
+
   footer {
     font-size: 1.3em;
     max-width: 1200px;
     margin: 40px auto;
     padding: 20px 0 40px 0;
   }
-  
+
   .pageTitle {
 	float: left;
 	margin-left: 20%;
 	}
-	
+
   .contact {
     max-width: 705px;
     height: 425px;
     padding: 20px 40px 20px 40px;
-    
+
   }
-  
+
   .card.contact {
 	margin: 50px auto;
 	}
-	
+
 	.contactBox {
 	  	padding: 53px 40px 20px 40px;
 	}
-	
+
 	.contact a.social {
     margin-top: 20px;
     margin-right: 30px;
     margin-left: 0;
 	}
-	
+
 	.contact li {
     text-align: left;
 }
 
-}
-
+} */
