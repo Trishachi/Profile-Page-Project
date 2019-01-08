@@ -151,7 +151,6 @@ header .profile-image:hover {
 }
 
 
-
 /* Banner Styles
 
 .banner {
@@ -204,33 +203,20 @@ ul.skills {
   	background: #b89c99;
 }
 
-#contactImage {
-	width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    border: solid 3px #ccc;
-    transition: all .5s;
+main {
+  padding-top: 50px
 }
 
-#contactImage:hover {
-	transform: scale(0.8) rotate(360deg);
-	border-color: #e96656;
-	box-shadow: 0 0 30px #222;
+.flex {
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-around;
+    margin: 0 auto;
 }
 
-.contactBox {
-	margin: 30px auto;
-}
 
-.card.contact {
-	text-align: center;
-}
 
-.contact a.social {
-    margin: 20px 15px 0 15px;
-}
-
-/* Footer Styles */
+/* Footer Styles
 
 footer {
 	width: 100%;
@@ -281,18 +267,42 @@ a.social:hover {
 }
 .clearfix {
   clear: both;
+}
+
+*/
+
+
+/* Contact Page Styles
+
+#contactImage {
+	width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: solid 3px #ccc;
+    transition: all .5s;
+}
+
+#contactImage:hover {
+	transform: scale(0.8) rotate(360deg);
+	border-color: #e96656;
+	box-shadow: 0 0 30px #222;
+}
+
+.contactBox {
+	margin: 30px auto;
+}
+
+.card.contact {
+	text-align: center;
+}
+
+.contact a.social {
+    margin: 20px 15px 0 15px;
 } */
 
 
 /* Styles for larger screens */
 /* @media screen and (min-width: 720px) {
-
-	.flex {
-      display: flex;
-      max-width: 1200px;
-      justify-content: space-around;
-      margin: 0 auto;
-  }
 
   header {
     min-height: 760px;
