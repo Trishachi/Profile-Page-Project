@@ -15,7 +15,7 @@ body {
   font-family: 'lato', sans-serif;
   font-size: 16px;
   color: #222;
-  text-align: center;
+  /* text-align: center; */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -49,6 +49,7 @@ li {
   padding: 10px;
   letter-spacing: 0.05em;
   box-shadow: 0 0 30px #222;
+  margin-bottom: 0px;
 }
 
 .navbar-default {
@@ -95,13 +96,26 @@ li {
 
 /* Header Styles */
 
+#content {
+  text-align: center;
+  padding-top: 10%;
+}
+
 header {
-	text-align: center;
-	background: url('../images/workspaceBb.jpg') no-repeat top center;
-	background-size: cover;
-	overflow: hidden;
-	padding-top: 60px;
-	line-height: 1.5;
+  background: url('../images/workspaceBb.jpg') no-repeat top center;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  padding: 25px 0;
+  line-height: 1.5
+}
+
+header .profile-image {
+	width: 150px;
+	margin: 50px 0;
+	border-radius: 50%;
+	border: 3px solid white;
+	transition: all .5s;
 }
 
 header .profile-image {
@@ -116,10 +130,6 @@ header .profile-image:hover {
   transform: scale(1.5) rotate(360deg);
 }
 
-.profile-image, .tag, .main-nav {
-    box-shadow: 0 0 30px #222;
-}
-
 .tag {
 	background-color: #efefef;
 	opacity: .85;
@@ -130,13 +140,19 @@ header .profile-image:hover {
 	margin: 10px auto;
 }
 
+.profile-image, .tag {
+    box-shadow: 0 0 30px #222;
+}
+
 .location {
 	background-color: #e96656;
 	color: #fff;
 	margin-bottom: 50px;
 }
 
-/* Banner Styles */
+
+
+/* Banner Styles
 
 .banner {
 	height: 300px;
@@ -151,6 +167,7 @@ header .profile-image:hover {
 	display: inline-block;
     margin-top: 190px;
 }
+*/
 
 /* Main Content Area Styles */
 
