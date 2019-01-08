@@ -15,7 +15,6 @@ body {
   font-family: 'lato', sans-serif;
   font-size: 16px;
   color: #222;
-  /* text-align: center; */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -98,7 +97,7 @@ li {
 
 #content {
   text-align: center;
-  padding-top: 10%;
+  padding-top: 15%;
 }
 
 header {
@@ -171,7 +170,6 @@ header .profile-image:hover {
 /* Main Content Area Styles */
 
 .card {
-	max-width: 500px;
 	margin: 30px;
 	padding: 20px 40px 40px;
 	border: 2px solid #ccc;
@@ -207,27 +205,32 @@ main {
   padding-top: 50px
 }
 
-.flex {
+/* .flex {
     display: flex;
     max-width: 1200px;
     justify-content: space-around;
     margin: 0 auto;
-}
+} */
 
 
 
-/* Footer Styles
+/* Footer Styles */
 
 footer {
 	width: 100%;
 	min-height: 30px;
 	padding: 20px 0 40px 20px;
+  text-align: center;
 }
 
-footer .copyright {
-	top: -8px;
-	font-size: .75em;
+p.copyright {
+  margin: 15px 0;
 }
+
+/* footer .copyright {
+	top: -8px;
+	/* font-size: .75em;
+} */
 
 footer ul {
   list-style-type: none;
@@ -265,11 +268,10 @@ a.github {
 a.social:hover {
   opacity: 1;
 }
+
 .clearfix {
   clear: both;
 }
-
-*/
 
 
 /* Contact Page Styles
