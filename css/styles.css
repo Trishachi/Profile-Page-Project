@@ -164,8 +164,8 @@ header .profile-image:hover {
 	color: #fff;
 	display: inline-block;
   margin-top: 190px;
+  float: left;
 }
-
 
 /* Main Content Area Styles */
 
@@ -205,13 +205,40 @@ main {
   padding-top: 50px
 }
 
-/* .flex {
-    display: flex;
-    max-width: 1200px;
-    justify-content: space-around;
-    margin: 0 auto;
-} */
+/* Contact Page Styles */
 
+#contactImage {
+	width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: solid 3px #ccc;
+    transition: all .5s;
+}
+
+#contactImage:hover {
+	transform: scale(0.8) rotate(360deg);
+	border-color: #e96656;
+	box-shadow: 0 0 30px #222;
+}
+
+.contactBox {
+	margin: 30px auto;
+}
+
+.card.contact {
+	text-align: center;
+}
+
+.contact a.social {
+    margin: 20px 15px 0 15px;
+}
+
+.contact {
+  max-width: 705px;
+  height: 425px;
+  padding: 20px 40px 20px 40px;
+  margin: 10px auto;
+}
 
 
 /* Footer Styles */
@@ -227,10 +254,9 @@ p.copyright {
   margin: 15px 0;
 }
 
-/* footer .copyright {
-	top: -8px;
-	/* font-size: .75em;
-} */
+footer .copyright {
+	font-size: .85em;
+}
 
 footer ul {
   list-style-type: none;
@@ -273,36 +299,6 @@ a.social:hover {
   clear: both;
 }
 
-
-/* Contact Page Styles
-
-#contactImage {
-	width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    border: solid 3px #ccc;
-    transition: all .5s;
-}
-
-#contactImage:hover {
-	transform: scale(0.8) rotate(360deg);
-	border-color: #e96656;
-	box-shadow: 0 0 30px #222;
-}
-
-.contactBox {
-	margin: 30px auto;
-}
-
-.card.contact {
-	text-align: center;
-}
-
-.contact a.social {
-    margin: 20px 15px 0 15px;
-} */
-
-
 /* Styles for larger screens */
 /* @media screen and (min-width: 720px) {
 
@@ -343,12 +339,7 @@ a.social:hover {
 	margin-left: 20%;
 	}
 
-  .contact {
-    max-width: 705px;
-    height: 425px;
-    padding: 20px 40px 20px 40px;
 
-  }
 
   .card.contact {
 	margin: 50px auto;
