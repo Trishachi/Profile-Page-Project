@@ -225,6 +225,10 @@ main {
 	margin: 30px auto;
 }
 
+.contactBox {
+    padding: 53px 40px 20px 40px;
+}
+
 .card.contact {
 	text-align: center;
 }
