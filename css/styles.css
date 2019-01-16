@@ -205,6 +205,23 @@ main {
   padding-top: 50px
 }
 
+
+/* Portfolio Page Styles */
+
+.btn-primary {
+    color: #fff;
+    background-color: #e96656;
+    border-color: #e65541;
+}
+
+.btn-primary:hover{
+  color: #fff;
+  background-color: #e96656;
+  border-color: #e65541;
+  opacity: 0.5;
+}
+
+
 /* Contact Page Styles */
 
 #contactImage {
