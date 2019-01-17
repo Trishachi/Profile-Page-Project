@@ -224,6 +224,20 @@ main {
 
 /* Contact Page Styles */
 
+.card-contact {
+	/* margin: 30px; */
+	padding: 20px 40px 40px;
+	border: 2px solid #ccc;
+	border-radius: 6px;
+	box-shadow: 0 0 5px #222;
+	transition: all .5s;
+	text-align: left;
+}
+
+.card-contact:hover {
+	border-color: #e96656;
+}
+
 #contactImage {
 	width: 200px;
     height: 200px;
@@ -246,19 +260,15 @@ main {
     padding: 53px 40px 20px 40px;
 }
 
-.card.contact {
-	text-align: center;
-}
-
 .contact a.social {
-    margin: 20px 15px 0 15px;
+    margin: 20px 20px 0 0;
 }
 
 .contact {
   max-width: 705px;
-  height: 425px;
+  /* height: 425px; */
   padding: 20px 40px 20px 40px;
-  margin: 10px auto;
+  /* margin: 10px auto; */
 }
 
 
@@ -267,7 +277,7 @@ main {
 footer {
 	width: 100%;
 	min-height: 30px;
-	padding: 20px 0 40px 20px;
+	padding: 20px 0 40px 0;
   text-align: center;
 }
 
