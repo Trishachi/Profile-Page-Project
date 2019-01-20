@@ -23,6 +23,10 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-font-smoothing: antialiased;
 }
 
+h1 {
+  font-size: 2em;
+}
+
 ul, li {
 	padding: 0;
 	margin: 0;
@@ -149,7 +153,6 @@ header .profile-image:hover {
 	margin-bottom: 50px;
 }
 
-
 /* Banner Styles */
 
 .banner {
@@ -224,22 +227,9 @@ main {
 
 /* Contact Page Styles */
 
-.card-contact {
-	/* margin: 30px; */
-	padding: 20px 40px 40px;
-	border: 2px solid #ccc;
-	border-radius: 6px;
-	box-shadow: 0 0 5px #222;
-	transition: all .5s;
-	text-align: left;
-}
-
-.card-contact:hover {
-	border-color: #e96656;
-}
 
 #contactImage {
-	width: 200px;
+	  width: 200px;
     height: 200px;
     border-radius: 50%;
     border: solid 3px #ccc;
@@ -256,21 +246,13 @@ main {
 	margin: 30px auto;
 }
 
-.contactBox {
-    padding: 53px 40px 20px 40px;
+.card.contact{
+  text-align: center;
 }
 
 .contact a.social {
-    margin: 20px 20px 0 0;
+    margin: 20px 15px 0 15px;
 }
-
-.contact {
-  max-width: 705px;
-  /* height: 425px; */
-  padding: 20px 40px 20px 40px;
-  /* margin: 10px auto; */
-}
-
 
 /* Footer Styles */
 
@@ -330,64 +312,27 @@ a.social:hover {
   clear: both;
 }
 
-/* Styles for larger screens */
-/* @media screen and (min-width: 720px) {
+/* Media Query for contact card on large screens */
+@media screen and (min-width: 720px) {
 
-  header {
-    min-height: 760px;
+  .flex {
+   display: flex;
+   max-width: 1200px;
+   justify-content: space-around;
+   margin: 0 auto;
   }
 
-  header .profile-image {
-	margin-top: 125px;
-	}
-
-	.nav {
-    	max-width: 1200px;
+  .contact {
+  max-width: 705px;
+  height: 425px;
+  padding: 20px 40px 20px 40px;
   }
-
-  .nav .name {
-    display: block;
-    margin-right: auto;
-  }
-
-  main {
-	padding-top: 50px;
-	}
-
- main p {
-    line-height: 1.6em;
-  }
-
-  footer {
-    font-size: 1.3em;
-    max-width: 1200px;
-    margin: 40px auto;
-    padding: 20px 0 40px 0;
-  }
-
-  .pageTitle {
-	float: left;
-	margin-left: 20%;
-	}
-
-
 
   .card.contact {
 	margin: 50px auto;
 	}
 
-	.contactBox {
-	  	padding: 53px 40px 20px 40px;
-	}
-
-	.contact a.social {
-    margin-top: 20px;
-    margin-right: 30px;
-    margin-left: 0;
-	}
-
-	.contact li {
-    text-align: left;
+  .contactBox {
+    padding: 53px 40px 20px 40px;
+  }
 }
-
-} */
