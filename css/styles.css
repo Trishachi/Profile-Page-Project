@@ -217,7 +217,8 @@ main {
     border-color: #e65541;
 }
 
-.btn-primary:hover{
+.btn-primary:hover,
+.btn-primary:active {
   color: #fff;
   background-color: #e96656;
   border-color: #e65541;
