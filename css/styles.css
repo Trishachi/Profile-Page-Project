@@ -210,6 +210,9 @@ main {
 
 
 /* Portfolio Page Styles */
+div.thumbnail img {
+  height: 179px;
+}
 
 .btn-primary {
     color: #fff;
@@ -227,8 +230,6 @@ main {
 
 
 /* Contact Page Styles */
-
-
 #contactImage {
 	  width: 200px;
     height: 200px;
